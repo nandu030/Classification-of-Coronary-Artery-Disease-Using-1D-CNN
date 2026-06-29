@@ -83,7 +83,6 @@ Classification-of-Coronary-Artery-Disease-Using-1D-CNN/
 │   └── sample_prediction.png      
 └── docs/
     ├── methodology.png            
-    ├── cnn_architecture.png
     └── project_paper.pdf         
 ```
 
