@@ -62,24 +62,29 @@ After preprocessing:
 ## Folder Structure
 
 ```
-PTB-CAD/
+Classification-of-Coronary-Artery-Disease-Using-1D-CNN/
 │
-├── paper_preprocessed/
-│   ├── X_segments.npy
-│   ├── y_labels.npy
+├── README.md
+├── preprocessing/
+│   └── preprocess_paper_version.py
 │
-├── paper_cnn_results/
-│   ├── best_cnn_model.keras
-│   ├── cnn_confusion_matrix.png
+├── models/
+│   ├── train_cnn_paper_model.py
+│   └── predict_single_record.py
+│
+├── saved_models/
+│   └── best_cnn_model.keras      
+│
+├── results/
 │   ├── cnn_accuracy_curve.png
-│
-├── external_ecg/
-│
-├── preprocess_paper_version.py
-├── train_cnn_paper_model.py
-├── predict_single_record.py
-├── ml_model_comparison.py
-└── README.md
+│   ├── cnn_confusion_matrix.png
+│   ├── roc_comparison.png
+│   ├── ml_model_comparison.csv
+│   └── sample_prediction.png      
+└── docs/
+    ├── methodology.png            
+    ├── cnn_architecture.png
+    └── project_paper.pdf         
 ```
 
 ---
